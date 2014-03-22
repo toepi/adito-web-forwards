@@ -70,7 +70,7 @@ public class WebForwardPlugin extends DefaultPlugin {
 	/**
 	 * Extension bundle ID
 	 */
-	public static final String BUNDLE_ID = "adito-community-web-forwards";
+	public static final String BUNDLE_ID = "adito-web-forwards";
 
 	final static Log log = LogFactory.getLog(WebForwardPlugin.class);
 
@@ -89,7 +89,7 @@ public class WebForwardPlugin extends DefaultPlugin {
 	 * Constructor.
 	 */
 	public WebForwardPlugin() {
-		super("/WEB-INF/adito-community-web-forwards-tiles-defs.xml", true);
+		super("/WEB-INF/adito-web-forwards-tiles-defs.xml", true);
 	}
 
 	/*
